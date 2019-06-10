@@ -51,7 +51,7 @@
   <title>Angry Americans w Paul (PJ) Rieckhoff . If you’re not angry, you’re not paying attention. </title>
 
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-<!--   <link rel="stylesheet" type="text/css" href="assets/css/scrolly.css"> -->
+<!--   --> <link rel="stylesheet" type="text/css" href="assets/css/scrolly.css">
   <link rel="stylesheet" type="text/css" href="assets/css/step.css">
     <script src="assets/css/demo-styles.css.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
@@ -67,6 +67,39 @@
 <link rel="stylesheet" type="text/css" href="assets/css/scrollyer_storytelling.css">
 
 <link rel="stylesheet" type="text/css" media="screen,print" href="assets/css/paint.css">
+
+
+
+
+
+ <style type="text/css">
+    
+#cbg {
+margin: 0;
+padding:0;
+ z-index:9;
+top:0;
+left:0;
+    display: inline-block;
+ }
+
+
+.box {
+  display: inline-block;
+  background: url("gate.jpg");
+  background-size: cover;
+}
+
+canvas {
+  background: transparent;
+}
+
+
+
+</style>
+ 
+
+
 
 
 </head>
@@ -166,7 +199,7 @@
   <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
 
   <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
-  <!-- |||||||||||| TABLE OF CONTENTS ||||||||||||||||||||||||||||||| -->
+  <!-- |||||||||||| TABLE OF CONTENTS |||||||||||||||||||||||||||||||
   <div id="toc" data-toggle="toc">
   <br />
      <span class="titleline">Angry Americans</span>
@@ -182,7 +215,7 @@
       </ul>
     </noscript>
     
-  </div>
+  </div> -->
   <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
 
   <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
@@ -208,6 +241,17 @@
     <a href="https://angryamericans.us" target="_blank" style="background-color: none; background: none;color:#fff; "><img src="assets/images/aalogo.png" border="0" alt="thanks" align="left" width="10%"></a>
   </div>
 
+
+
+<div id="threespotinfo" class="bgbg" style="display:none; " onclick="toggle_visibility('threespotinfo');toggle_visibility('closeB');toggle_visibility('CanvasImgBB');">
+ 
+ </div>
+ 
+ 
+ 
+ <div class="box">
+    <canvas id="canvas" width="1296" height="462"></canvas>
+</div>
 
 
 
@@ -279,12 +323,12 @@
   </a></span>
 
 
+   <!--       
 <div class="box">
     <canvas id="canvas" width="1296" height="501"></canvas>
 </div>
 
 
-   <!--       
 <img src="assets/images/aalogo.png" width="100%" border="0" alt="Scroll Down For More" style="text-align: center; ">
 
 -->
